@@ -1,0 +1,6 @@
+@url = https://8080-camilaborge-sw2aapi0609-y7vxm1qhb5x.ws-us116.gitpod.io
+###
+GET {{url}}/frutas
+
+###
+GET {{url}}/frutas/2
