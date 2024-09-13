@@ -1,0 +1,28 @@
+@url = https://8080-camilaborge-sw2aapi0609-tacpr76t055.ws-us116.gitpod.io
+
+###
+POST {{url}}/pessoas
+Content-Type: application/json
+
+{
+    "nome": "123 de Oliveira 4",
+    "idade": 20
+}
+
+###
+GET {{url}}/pessoas
+
+###
+GET {{url}}/pessoas/1
+
+###
+PUT {{url}}/pessoas/2
+Content-Type: application/json
+
+{
+    "nome": "Registro Modificado",
+    "idade": 52
+}
+
+###
+DELETE {{url}}/pessoas/2
